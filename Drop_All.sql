@@ -1,3 +1,5 @@
+--this is a comment
+
 IF OBJECT_ID('[sde].[mck].[ENERGOV_BUILDING_INSPECT]', 'U') IS NOT NULL
 DROP TABLE [sde].[mck].[ENERGOV_BUILDING_INSPECT];
 
