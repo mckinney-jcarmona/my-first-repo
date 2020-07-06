@@ -25,9 +25,6 @@ DROP TABLE [sde].[mck].[PROD_CodeEnforcement_IPMCViolations];
 IF OBJECT_ID('[sde].[mck].[PROD_DevServ_HighPriority]', 'U') IS NOT NULL
 DROP TABLE [sde].[mck].[PROD_DevServ_HighPriority]
 
-IF OBJECT_ID('[sde].[mck].[PROD_EnergovRecords]', 'U') IS NOT NULL
-DROP TABLE [sde].[mck].[PROD_EnergovRecords];
-
 IF OBJECT_ID('[sde].[mck].[PROD_Engineering_ActiveConstruction]', 'U') IS NOT NULL
 DROP TABLE [sde].[mck].[PROD_Engineering_ActiveConstruction];
 
